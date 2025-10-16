@@ -23,6 +23,12 @@
     padding-right: 0.78571rem !important;
 }
 
+.navPages-list a[href*="privacy-policy"],
+.navPages-list a[href*="shipping-returns"],
+.navPages-list a[href*="billing-terms-and-conditions"] {
+    display: none !important;
+}
+
 @media (min-width: 801px) {
     .navUser-item--cart .navUser-action {
         padding-right: 0.78571rem !important;
