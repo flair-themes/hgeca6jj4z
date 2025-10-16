@@ -1,0 +1,30 @@
+.header {
+    background-image: url("https://carmieskitchen.com/product_images/uploaded_images/header-background-ingredients.jpg") !important;
+	background-size: cover !important;
+	background-position: bottom !important;
+	background-repeat: no-repeat !important;
+}
+
+.navUser.right .navUser-section {
+	text-align: right !important;
+	background-color: white !important;
+	border-radius: 12px !important;
+}
+
+.globalBanner {
+    padding: 0 1rem !important;
+}
+
+.navUser-action {
+    padding: 1rem 0.78571rem !important;
+}
+
+.navUser-item--cart .navUser-action {
+    padding-right: 0.78571rem !important;
+}
+
+@media (min-width: 801px) {
+    .navUser-item--cart .navUser-action {
+        padding-right: 0.78571rem !important;
+    }
+}
