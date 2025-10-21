@@ -33,4 +33,19 @@
     .navUser-item--cart .navUser-action {
         padding-right: 0.78571rem !important;
     }
+
+    ::-webkit-scrollbar {
+        -webkit-appearance: none !important;
+        width: 7px !important;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px !important;
+        background-color: rgba(0, 0, 0, .5) !important;
+        box-shadow: 0 0 1px rgba(255, 255, 255, .5) !important;
+    }
+
+    .expanded .navPage-subMenu-list, .expanded--enclosed .navPage-subMenu-list {
+        overflow-y: auto !important;
+    }
 }
